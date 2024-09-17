@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+.videoSec{
+}
+.miniature{
+    width: 300px;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.miniature:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+.miniature .headerImg{
+    width: 100%;
+    border-radius: 10px;
+}
+.miniature .title{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.miniature .desc{
+    color: rgb(188, 188, 188);
+    font-size: 13px;
+    margin-bottom: 0px;
+}
