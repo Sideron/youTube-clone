@@ -29,8 +29,27 @@ body{
 
 .short{
     width: 250px;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 0.1s;
+    position: relative;
+    display: inline-block;
 }
 .short .shortImg{
     width: 100%;
     border-radius: 10px;
+    display: block;
+}
+.short::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.short:hover::after{
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
 }
