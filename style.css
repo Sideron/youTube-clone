@@ -1,9 +1,7 @@
 body{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(27, 27, 27);
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.videoSec{
 }
 .miniature{
     width: 300px;
@@ -27,4 +25,12 @@ body{
     color: rgb(188, 188, 188);
     font-size: 13px;
     margin-bottom: 0px;
+}
+
+.short{
+    width: 250px;
+}
+.short .shortImg{
+    width: 100%;
+    border-radius: 10px;
 }
