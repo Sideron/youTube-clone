@@ -7,10 +7,10 @@ body{
     width: 300px;
     padding: 7px;
     border-radius: 10px;
-    transition: 0.1s;
+    transition: 0.15s;
 }
 .miniature:hover{
-    background-color: rgba(255, 255, 255, 0.233);
+    background-color: rgba(255, 255, 255, 0.178);
 }
 
 .miniature .headerImg{
@@ -43,13 +43,16 @@ body{
 .short::after{
     content: "";
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    left: 7px;
+    top: 7px;
+    right: 7px;
+    bottom: 8px;
+    /*width: 100%;
+    height: 100%;*/
     border-radius: 10px;
-    transition: 0.1s;
+    transition: 0.2s;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
 }
 .short:hover::after{
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0);
 }
